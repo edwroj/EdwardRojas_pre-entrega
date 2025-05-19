@@ -23,15 +23,14 @@ public class Articulo {
     public String getNombre() {
         return nombre;
     }
-
-    // Setter para modificar el nombre
-    public void setNombre(String nombreParametro) {
-        this.nombre = nombreParametro;
-    }
-
     // Getter para el atributo precio
     public double getPrecio() {
         return precio;
+    }
+
+    // Setter para modificar el nombre
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
     }
 
     // Setter para modificar el precio
