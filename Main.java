@@ -122,12 +122,16 @@ public class Main {
         lista.add(nuevo);
         System.out.println("Artículo agregado.");
 
+        System.out.println("Artículos totales: " + lista.size());
+
     }
 
     // Método para mostrar todos los artículos de la lista
     public static void listarArticulos() {
+        System.out.println("Listando " + lista.size() + " artículos...");
 
         if (lista.isEmpty()) {
+
             System.out.println("No hay artículos cargados.");
         } else {
             for (Articulo a : lista) {
